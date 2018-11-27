@@ -1,0 +1,49 @@
+ .wrap {
+   border: 1px solid #000;
+   position: relative;
+   padding: 20px 10px;
+
+   .arrow-l {
+     font-weight: bold;
+     cursor: pointer;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 20px;
+     height: 20px;
+     border-radius: 10px;
+     position: absolute;
+     left: 10px;
+     top: 50%;
+     transform: translateY(-50%);
+     border: 1px solid green;
+   }
+
+   .arrow-r {
+     font-weight: bold;
+     cursor: pointer;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 20px;
+     height: 20px;
+     border-radius: 10px;
+     position: absolute;
+     right: 10px;
+     top: 50%;
+     transform: translateY(-50%);
+     border: 1px solid green;
+   }
+
+   .item {
+     border: 1px solid blue;
+     display: none;
+     width: 80%;
+     margin: auto;
+     text-align: center;
+   }
+
+   .block {
+     display: block;
+   }
+ }

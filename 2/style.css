@@ -1,0 +1,31 @@
+.wrap {
+    width: 512px;
+    height: 512px;
+    border: 1px solid #000;
+    margin: auto;
+    position: relative;
+}
+
+.wrap .tagging-element {
+    position: absolute;
+}
+
+.wrap .tagging-title, .delete {
+    cursor: pointer;
+    padding: 5px 10px;
+    display: inline-block;
+    border: 1px solid #000;
+    background: rgba(0, 0, 0, .5);
+    border-radius: 3px;
+    color: #fff;
+}
+
+.delete {
+    margin-left: -5px;
+}
+
+.hide {
+    display: none;
+}
+
+
