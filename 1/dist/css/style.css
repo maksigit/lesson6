@@ -31,10 +31,10 @@
     transform: translateY(-50%);
     border: 1px solid green; }
   .wrap .item {
-    border: 1px solid blue;
     display: none;
     width: 80%;
     margin: auto;
-    text-align: center; }
+    text-align: center;
+    transition: .4s; }
   .wrap .block {
     display: block; }

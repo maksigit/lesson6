@@ -28,4 +28,22 @@
     display: none;
 }
 
+.flex-revers {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#element1 {
+    width: 142px;
+}
+
+#element3 {
+    width: 190px;
+}
+
+#element2 {
+    width: 100px;
+}
+
+
 

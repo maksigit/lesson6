@@ -7,8 +7,3 @@ function isPrime(num) {
     return false
   }
 }
-
-console.log(isPrime(0));                          // false
-console.log(isPrime(1));                          // false
-console.log(isPrime(17));                         // true
-console.log(isPrime(10000000000000));             // false

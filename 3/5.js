@@ -10,6 +10,3 @@ function reverse(str) {
 
   return totalArr
 }
-
-console.log(reverse(''));                       // ''
-console.log(reverse('abcdef'));                 // 'fedcba'

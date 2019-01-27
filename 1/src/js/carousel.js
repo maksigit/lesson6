@@ -17,8 +17,9 @@ arrowL.addEventListener('click', function () {
 });
 
 arrowR.addEventListener('click', function () {
+  let limit = (allItems.length + '');
   for (let i = 0; i < allItems.length; i++) {
-    if (allItems[i].dataset.num === '5' && allItems[i].className === 'item block') {
+    if (allItems[i].dataset.num === limit && allItems[i].className === 'item block') {
       allItems[i].className = 'item';
       i = 0;
       allItems[i].className = 'item block';
@@ -29,3 +30,4 @@ arrowR.addEventListener('click', function () {
     }
   }
 });
+

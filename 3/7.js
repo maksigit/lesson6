@@ -28,8 +28,3 @@ function isPalindrome(str) {
   }
 
 }
-
-console.log(isPalindrome(''));                                // true
-console.log(isPalindrome('abcdcba'));                         // true
-console.log(isPalindrome('abcd'));                            // false
-console.log(isPalindrome('A man a plan a canal Panama'));     // true

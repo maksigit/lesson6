@@ -18,7 +18,3 @@ function isSorted(arr) {
   }
   return boo
 }
-
-console.log(isSorted([]));                        // true
-console.log(isSorted([-Infinity, -5, 0, 3, 9]));  // true
-console.log(isSorted([3, 9, -3, 10]));            // false
