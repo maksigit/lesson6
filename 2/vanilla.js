@@ -19,7 +19,6 @@ Element.prototype.makeDraggable = function () {
   let element2 = document.getElementById('element2');
   let element3 = document.getElementById('element3');
   let o = this.parentNode;
-  console.log(o);
   o.onmousedown = function (e) {
     let offsetX = e.pageX - parseInt(o.style.left);
     let offsetY = e.pageY - parseInt(o.style.top);
